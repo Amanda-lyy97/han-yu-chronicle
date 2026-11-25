@@ -402,7 +402,7 @@
           <h3>${esc(w.title)}</h3>
           <p class="work-card-meta">${esc(w.yearLabel)} · ${esc(w.place)}</p>
           <p class="work-card-quote">“${esc((w.quote && w.quote.text) || w.context)}”</p>
-          <p class="work-card-eye"><span>文眼</span>${esc(w.eye || "")}</p>
+          <p class="work-card-eye"><span>${esc(w.eyeKind || "文眼")}</span>${esc(w.eye || "")}</p>
           <div class="work-card-foot">
             <span class="work-card-people">${esc((w.people || []).slice(0, 2).map((p) => p.name).join(" · ") || w.genre)}</span>
             <span class="work-card-arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
@@ -654,7 +654,7 @@
       </div>
 
       <div class="modal-eye">
-        <span class="modal-eye-label">文眼</span>
+        <span class="modal-eye-label">${esc(w.eyeKind || "文眼")}</span>
         <div>
           <strong>${esc(w.eye || "")}</strong>
           <p>${esc(w.eyeNote || "")}</p>
