@@ -1,6 +1,6 @@
 # 韩昌黎 · 行迹与文心
 
-**在线访问**：https://ewmg5f0wfo.brewpage.app/ （BrewPage 免费匿名托管，当前有效期 30 天）
+**在线访问**：https://amanda-lyy97.github.io/han-yu-chronicle/ （GitHub Pages）
 
 一个按时间轴阅读韩愈的静态网站：把韩愈的求学、仕宦、贬谪与写作放回中唐的政局与文坛现场。
 
