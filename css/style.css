@@ -4047,3 +4047,22 @@ button {
     left: -30px;
   }
 }
+
+.works-eye-legend {
+  margin: -8px 0 18px;
+  font-family: var(--font-ui);
+  font-size: 9px;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+
+.works-eye-legend strong {
+  margin-right: 4px;
+  font-weight: 500;
+  color: var(--cinnabar);
+}
+
+.works-eye-legend strong:not(:first-child) {
+  margin-left: 10px;
+}
